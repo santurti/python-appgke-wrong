@@ -14,8 +14,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expone el puerto en el que corre la aplicación
-EXPOSE 8080
+EXPOSE 5000
 
 # Comando para ejecutar la aplicación (ajusta según el framework usado)
-CMD ["python", "app.py"]
+CMD ["python", "/app/currency_converter.py"]
 

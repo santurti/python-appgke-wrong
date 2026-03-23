@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: python-appgke
-        image: gcr.io/icai2025/python-appgke:icai2025
+        image: gcr.io/tecnologia-pd/python-appgke:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
